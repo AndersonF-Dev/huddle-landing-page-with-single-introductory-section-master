@@ -1,0 +1,43 @@
+
+@media (max-width: 900px) {
+    body {
+        background: url('../images/bg-mobile.svg') center center no-repeat;
+        background-size: cover;
+    }
+
+    .content-wrapper {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .imag-ilustration {
+        max-width: 523px;
+    }
+
+    .text-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .redissocias {
+        display: flex;
+        justify-content: center;
+        margin-right: 35%;
+        margin-top: 5%;
+    }
+}
+
+@media (max-width: 700px) {
+    .conteiner-principal{
+        margin-top: 10%;
+        height: 100vh;
+    }
+}
+
+@media (max-width: 400px) {
+    .conteiner-principal{
+        margin-top: 30%;
+    }
+}

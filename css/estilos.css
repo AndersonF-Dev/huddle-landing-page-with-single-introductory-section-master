@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-/* font-family: "Poppins", sans-serif; */
+
 
 html{
     background-color: hsl(257, 40%, 49%);    
@@ -17,16 +17,109 @@ body {
     background: url('../images/bg-desktop.svg') center center no-repeat;
     background-size: cover;
     font-family: "Open Sans", sans-serif;
-}
-.conteiner-principal{
     color: white;
-    max-width: 1440px;
-    /* background-color: aqua; */
+}
+.imag-logo{grid-area: imag-logo;}
+.conteiner-image{grid-area: conteiner-image;}
+.text-content{grid-area: text-content; }
+.redissocias{grid-area: redissocias;}
+
+.conteiner-principal {
+    display: grid;
+    grid-template-areas: "imag-logo imag-logo"
+                         "conteiner-image text-content"
+                         "redissocias redissocias";
+    
+    grid-template-columns: repeat(2, 1fr); 
+    display: flex;
+    flex-direction: column;
+    max-width: 1440px;                    
 }
 
 .content-wrapper {
     display: flex;
-    gap: 50px;
+    gap: 30px;
+}
+
+.imag-logo {
+    width: 194px;
+    height: 45px;
+    margin-bottom: 20px;
+}
+
+.imag-ilustration{
+    width: 623px;
+}
+
+.title {
+    font-family: "Poppins", sans-serif;
+    font-size: 2.2rem;
+    text-wrap: balance;
+    width: 397px;
+}
+
+.description {
+    font-size: 1.1rem;
+    text-wrap: pretty;
+    width: 498px;
+    margin-top: 6%;
+}
+
+.register-button {
+    width: 195px;
+    height: 55px;
+    font-size: 1.2rem;
+    margin-top: 6%;
+    /* margin-left: 9%; */
+    border-radius: 30px;
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    cursor: pointer;
+    transition: 0.5s;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.register-before:hover{
+    color: white;
+    background-color:  hsl(300, 69%, 71%);
+}
+
+.redissocias {
+    display: flex;
+    text-align: end;
+    justify-content: end;
+    gap: 3%;
+}
+
+.redissocias i {
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.redissocias i:hover {
+    color: hsl(300, 69%, 71%);
+}
+/* .conteiner-principal{
+    color: white;
+    max-width: 1440px;
+    top: 20px;
+}
+
+.content-wrapper {
+    background-color: orange;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 }
 .conteiner-image {
     display: flex;
@@ -40,15 +133,18 @@ body {
 
 .imag-ilustration{
     width: 623px;
-    margin-top: 8%;
+    
 }
 
+.text-content {
+    
+    margin: 30px;
+}
 .title {
     font-family: "Poppins", sans-serif;
     font-size: 2.2rem;
     text-wrap: balance;
     width: 397px;
-    margin-top: 28%;
 }
 
 .description {
@@ -71,7 +167,6 @@ body {
     transition: 0.5s;
     position: relative;
     overflow: hidden;
-    /* background: none; */
 
 }
 
@@ -80,6 +175,30 @@ body {
     background-color:  hsl(300, 69%, 71%);
 }
 
+.redissocias {
+    display: flex;
+    justify-content: end;
+    gap: 3%;
+    margin-top: 40%;
+}
+
+.redissocias i {
+    font-size: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid;
+    transition: .5s;
+    cursor: pointer;
+}
+
+.redissocias i:hover {
+    color: hsl(300, 69%, 71%);
+} */
 
 
 
@@ -87,6 +206,5 @@ body {
 
 
 
-
-.attribution { font-size: 11px; text-align: center; }
+.attribution { font-size: 11px; text-align: center; display: none;}
 .attribution a { color: hsl(228, 45%, 44%); }
