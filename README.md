@@ -13,7 +13,7 @@ Esta é uma solução para o [Desafio Página de destino do Huddle com solução
 ### Link
 
 
-- URL do site ativo: [link aqui](https://andersonf-dev.github.io/social-proof-section-master/)
+- URL do site ativo: [link aqui](https://andersonf-dev.github.io/huddle-landing-page-with-single-introductory-section-master/)
 
 
 
