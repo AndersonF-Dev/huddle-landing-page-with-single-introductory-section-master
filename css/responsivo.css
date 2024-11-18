@@ -1,27 +1,27 @@
 
-@media (max-width: 900px) {
+@media (max-width: 1020px) {
     body {
-        background: url('../images/bg-mobile.svg') center center no-repeat;
+        background: url('../images/bg-mobile.svg')  no-repeat;
         background-size: cover;
     }
 
-    .content-wrapper {
+    .conteiner-principal .content-wrapper{
         display: flex;
         flex-direction: column;
         gap: 10px;
     }
 
-    .imag-ilustration {
+    .conteiner-principal .content-wrapper .imag-ilustration {
         max-width: 523px;
     }
 
-    .text-content {
+    .conteiner-principal .content-wrapper .text-content {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
-    .redissocias {
+    .conteiner-principal .redissocias {
         display: flex;
         justify-content: center;
         margin-right: 38%;
@@ -37,29 +37,29 @@
 }
 
 @media (max-width: 450px) {
-    .content-wrapper{
+    .conteiner-principal .content-wrapper{
         max-width: 300px;
         
     }
-    .imag-ilustration{
+    .conteiner-principal .content-wrapper .imag-ilustration{
         max-width: 300px;
         margin-right: 10%;
         display: flex;
         justify-content: center;
     }
 
-    .text-content h1 {
+    .conteiner-principal .content-wrapper .text-content h1 {
         font-size: 1.6rem;
         text-align: center;
     }
 
-    .text-content p {
+    .conteiner-principal .content-wrapper .text-content p {
         font-size: 0.9rem;
         text-align: center;
         width: 290px;
     }
 
-    .redissocias{
+    .conteiner-principal .redissocias{
         margin-right: 29%;
     }
 }

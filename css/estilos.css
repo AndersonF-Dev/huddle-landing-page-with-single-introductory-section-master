@@ -36,24 +36,24 @@ body {
     max-width: 1440px;                    
 }
 
-.content-wrapper {
+.conteiner-principal .content-wrapper {
     display: flex;
     gap: 30px;
-    /* overflow: hidden; */
+    
 }
 
-.imag-logo {
+.conteiner-principal .imag-logo {
     width: 194px;
     height: 45px;
     margin-bottom: 20px;
 }
 
-.imag-ilustration{
+.conteiner-principal .content-wrapper .imag-ilustration{
     width: 623px;
     overflow: hidden;
 }
 
-.title {
+.conteiner-principal .content-wrapper .text-content h1 {
     font-family: "Poppins", sans-serif;
     font-size: 2.2rem;
     text-wrap: balance;
@@ -61,7 +61,7 @@ body {
     overflow: hidden;
 }
 
-.description {
+.conteiner-principal .content-wrapper .text-content p {
     font-size: 1.1rem;
     text-wrap: pretty;
     width: 498px;
@@ -69,28 +69,29 @@ body {
     overflow: hidden;
 }
 
-.register-button {
+.conteiner-principal .content-wrapper .text-content .register-button {
     width: 195px;
     height: 55px;
     font-size: 1.2rem;
     margin-top: 6%;
-    /* margin-left: 9%; */
+   
     border-radius: 30px;
     border: none;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
     cursor: pointer;
     transition: 0.5s;
-    position: relative;
+
     overflow: hidden;
 
 }
 
-.register-before:hover{
+.conteiner-principal .content-wrapper .register-button:hover{
     color: white;
     background-color:  hsl(300, 69%, 71%);
 }
 
-.redissocias {
+.conteiner-principal .redissocias {
     display: flex;
     text-align: end;
     justify-content: end;
@@ -98,112 +99,25 @@ body {
     margin-bottom: 5%;
 }
 
-.redissocias i {
+.conteiner-principal .redissocias i {
     font-size: 1.3rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
     width: 40px;
     height: 40px;
+    
     border-radius: 50%;
     border: 1px solid;
     transition: .5s;
     cursor: pointer;
 }
 
-.redissocias i:hover {
+.conteiner-principal .redissocias i:hover {
     color: hsl(300, 69%, 71%);
 }
-/* .conteiner-principal{
-    color: white;
-    max-width: 1440px;
-    top: 20px;
-}
-
-.content-wrapper {
-    background-color: orange;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-}
-.conteiner-image {
-    display: flex;
-    flex-direction: column;
-}
-
-.imag-logo {
-    width: 194px;
-    height: 45px;
-}
-
-.imag-ilustration{
-    width: 623px;
-    
-}
-
-.text-content {
-    
-    margin: 30px;
-}
-.title {
-    font-family: "Poppins", sans-serif;
-    font-size: 2.2rem;
-    text-wrap: balance;
-    width: 397px;
-}
-
-.description {
-    font-size: 1.1rem;
-    text-wrap: pretty;
-    width: 498px;
-    margin-top: 6%;
-}
-
-.register-button {
-    width: 195px;
-    height: 55px;
-    font-size: 1.2rem;
-    margin-top: 6%;
-    margin-left: 9%;
-    border-radius: 30px;
-    border: none;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
-    cursor: pointer;
-    transition: 0.5s;
-    position: relative;
-    overflow: hidden;
-
-}
-
-.register-before:hover{
-    color: white;
-    background-color:  hsl(300, 69%, 71%);
-}
-
-.redissocias {
-    display: flex;
-    justify-content: end;
-    gap: 3%;
-    margin-top: 40%;
-}
-
-.redissocias i {
-    font-size: 1.3rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: 1px solid;
-    transition: .5s;
-    cursor: pointer;
-}
-
-.redissocias i:hover {
-    color: hsl(300, 69%, 71%);
-} */
 
 
 
