@@ -24,20 +24,42 @@
     .redissocias {
         display: flex;
         justify-content: center;
-        margin-right: 35%;
+        margin-right: 38%;
         margin-top: 5%;
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 780px) {
     .conteiner-principal{
         margin-top: 10%;
         height: 100vh;
     }
 }
 
-@media (max-width: 400px) {
-    .conteiner-principal{
-        margin-top: 30%;
+@media (max-width: 450px) {
+    .content-wrapper{
+        max-width: 300px;
+        
+    }
+    .imag-ilustration{
+        max-width: 300px;
+        margin-right: 10%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .text-content h1 {
+        font-size: 1.6rem;
+        text-align: center;
+    }
+
+    .text-content p {
+        font-size: 0.9rem;
+        text-align: center;
+        width: 290px;
+    }
+
+    .redissocias{
+        margin-right: 29%;
     }
 }
